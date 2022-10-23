@@ -1,0 +1,53 @@
+.counters{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.counter-item{
+    text-align: center;
+    width: calc(33.33 - 30px);
+    margin-top: 50px;
+}
+
+.counter-item h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(27, 230, 220);
+}
+
+.counter-item p{
+    font-size: 20px;
+    line-height: 1.4;
+    color: rgb(215, 23, 183);
+    text-transform: uppercase;
+}
+
+@media(max-width:1150px){
+    .counters{
+    margin-bottom: 70px;
+    }
+
+    .counter-item h2{
+        font-size: 25px;
+    }
+
+    .counter-item p{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:821px){
+    .counters{
+    margin-bottom: 70px;
+    width: 45%;
+    }
+    .counter-item h2{
+        font-size: 18px;
+    }
+
+    .counter-item p{
+        font-size: 10px;
+    }
+}
+

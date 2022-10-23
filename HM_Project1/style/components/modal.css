@@ -1,0 +1,84 @@
+.modal_1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: 20;
+}
+.modal_1.active{
+    width: 100%;
+}
+
+.background-window{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: .3;
+    z-index: 1;
+}
+
+.modal-inner{
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    border: 5px solid rgb(15, 233, 15);
+    border-radius: 30px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 25%;
+    left: -500px;
+    z-index: 2;
+}
+.modal_1.active .modal-inner{
+    left: 35%;
+}
+
+.close{
+    position: relative;
+}
+.close span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: orange; 
+    color: black;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.close span:hover{
+    background-color: rgb(208, 59, 5);;
+}
+
+.modal-inner h2{
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.modal-inner input, .modal-inner button{
+    display: block;
+    margin: 10px 0px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.modal-inner button{
+    border: none;
+    background-color: greenyellow;
+    color: #000;
+    transition: .3s;
+}
+.modal-inner button:hover{
+    background-color: yellowgreen;
+    box-shadow: 4px 11px 8px 0px rgba(34, 60, 80, 0.2);
+}

@@ -1,0 +1,24 @@
+.container{
+    width:70%;
+    border: 10px solid #C4C4C4;
+    padding-bottom: 30px;
+}
+.cont-item{
+    display: flex;
+}
+
+.numb{
+    text-align: center;
+    padding-top: 20px;
+    margin: 20px 20px;
+    color:#C4C4C4;
+    font-size: 40px;
+    width: 100px;
+    height: 90px;
+    border: 3px solid #C4C4C4;
+    border-radius: 100px;
+    box-sizing: border-box;
+}
+input{
+    background-color: #9CA1CC;
+}

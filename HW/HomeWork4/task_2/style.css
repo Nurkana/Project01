@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(227, 224, 224);
+    flex-wrap: wrap;
+    
+    
+    
+}
+
+.child{
+    padding: 30px 10px;
+    margin:10px 5px;
+    width: 30%;
+    height: 200px;
+    background-color: #fff;
+    transition: 1s;
+    
+    
+}
+ .child div{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.child:hover{
+    text-decoration: underline blue;
+    box-shadow:  18px 18px 8px 0px rgba(34, 60, 80, 0.2);
+    position: relative;
+    top: -5px; 
+}
+
+.child:hover h2{
+    color:blue;
+}
+

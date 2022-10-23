@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 15px solid #C4C4C4;
+    width: 90%;
+    padding: 100px 10px;
+    box-sizing:border-box;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+.contin{
+    width:250px;
+}
+
+.text1{
+    font-size:12px;
+}
+
+.cont-pictures img{
+    width:200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 20px;
+
+}

@@ -1,0 +1,38 @@
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    height: 2000px;
+    width:100%;
+    background-color:rgb(232, 240, 239);
+    
+    
+}
+
+
+
+.block1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 95%;
+    height:100px;
+    top: 30px;
+    left: 40px;
+    color:rgb(255, 247, 247);
+    background-color: brown;
+    font-size: 28px; 
+    z-index: 2;
+}
+
+.block2{
+    position: absolute;
+    top:150px;
+    left: 40px;
+    background-color: #fff;
+    width: 95%;
+    
+}

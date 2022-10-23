@@ -1,0 +1,156 @@
+.HM5{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0 0 0;
+}
+
+
+.text h3{
+    display: flex;
+    margin: 50px 0px 30px -150px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.text2{
+    display: flex;
+    margin: 0 0 0 -200px;
+    align-items: center;
+    
+}
+.child1 div{
+    display: flex;
+    align-items: center;
+    margin:10px;
+}
+.child1 h4{
+    font-size: 20px;
+    margin-left: 20px;
+}
+ .child1 div img{
+    margin-right: 5px;
+}
+.child1 div:hover img{
+    filter: invert(76%) sepia(84%) saturate(4175%) hue-rotate(161deg) brightness(109%) contrast(91%);
+}
+
+.child2 div{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.child2 h4{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.child2 div img{
+    margin-right: 5px;
+}
+.child2 div:hover img{
+    filter: invert(76%) sepia(84%) saturate(4175%) hue-rotate(161deg) brightness(109%) contrast(91%);
+}
+
+@media(max-width: 1150px){
+    .HM5{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    .text h3{
+        margin: 70px 0 20px -10px;
+    }
+
+    .text2{
+        margin: 0 0 0 -80px
+    }
+
+    .child1{
+       
+    }
+
+    .child2{
+       
+    }
+    
+}
+
+
+
+
+
+@media(max-width: 821px){
+    .HM5{
+        display: flex;
+        justify-content: space-around;
+        background-color: rgb(191, 245, 227);
+        border: 3px solid rgb(200, 239, 142);
+        width: 80%;
+        margin: 20px 0 0 100px;
+       
+    }
+
+    .HM5 div img{
+        display: none;
+    }
+
+
+    .text h3{
+      margin: 30px 0 20px 50px;
+    }
+
+    .child1{
+       margin: 0 0 0 -10px;
+    }
+
+    .child1 div > p{
+        font-size: 18px;
+    }
+
+    .child2{
+        margin: 0 0 0 70px;
+    }
+
+    .child2 div > p{
+        font-size: 18px;
+    }
+    
+}
+
+
+
+
+@media(max-width: 600px){
+    .HM5{
+        margin: 90px 0 0 30px;
+        width: 90%;
+    }
+
+    .text h3{
+        margin: 30px 0 20px 150px;
+    }
+
+    .child1{
+        margin: 0 0 0 90px;
+    }
+
+}
+
+
+
+
+@media(max-width: 376px){
+    .HM5{
+        margin: 90px 0 0 30px;
+        width: 95%;
+    }
+
+    .text h3{
+        margin: 30px 0 20px 150px;
+    }
+
+    .child1{
+        margin: 0 0 0 90px;
+    }
+
+}

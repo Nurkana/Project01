@@ -1,0 +1,58 @@
+body{
+    background-image:url("painting.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+
+}
+
+.par{
+    text-align: center;
+    font-size: 35px;
+    text-transform:capitalize;
+    color:#ffffff;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.par2{
+    text-align: center;
+    font-size: 20px;
+    text-transform:uppercase;
+    color: #ffffff;
+    font-style:inherit;
+    line-height:1.2;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.par3{
+    font-size: 20px;
+    color:#ffffff;
+    background-color:#BC6F65;
+    width: 430px;
+    margin:0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.par4{
+    font-size:20px;
+    color:#000000;
+    text-align:center;
+    font-style:italic;
+    font-weight:bold;
+
+}
+
+.par5   {
+    color:#ffffff;
+    text-align:center;
+    text-transform:uppercase;
+    font-size: 20px;
+    text-decoration:line-through;
+
+}

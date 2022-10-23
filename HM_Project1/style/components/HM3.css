@@ -1,0 +1,294 @@
+
+.HM3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1180px;
+    margin: 100px 0 0 100px;
+}
+
+.HM3-text{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    margin-bottom: 50px;
+
+}
+.HM3-text h2{
+
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.division div{
+    display: flex;
+    margin: 10px 0px;
+
+}
+.division img{
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+}
+.division img:hover{
+    box-shadow: 7px 10px 11px 13px rgba(34, 60, 80, 0.2);
+    border-radius: 50px;
+}
+
+.division-2 div{
+    display: flex;
+    margin: 10px 0px;
+}
+.division-2 img{
+    width: 50px;
+    height: 50px;
+    transition: .5s;
+}
+.division-2 img:hover{
+    box-shadow: 7px 10px 11px 13px rgba(34, 60, 80, 0.2);
+    border-radius: 50px;
+}
+
+.division p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.division-2 p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+@media(max-width: 1150px){
+
+    .HM3{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 150px 0 0 0;
+        
+    }
+
+    .HM3-text h2{
+        
+        font-size: 25px;
+        margin: 0 0 0 70px;
+    }
+
+    .HM3-text p{
+        font-size: 20px;
+        margin: 0 0 0 70px;
+    }
+
+    .division{
+        display: block;
+        margin: 0 80px 0 0; 
+        
+    }
+
+    .division img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .division p{
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+    .division-2{
+        display: block;
+        margin: 0 50px 0 0;
+       
+    }
+
+    .division-2 img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .division-2 p{
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 15px;
+    }
+
+}
+
+
+
+
+@media(max-width: 821px){
+    .HM3{
+        display: grid;
+        justify-content: space-around;
+    }
+
+    .HM3-text p{
+        margin: -100px 0 0 300px;
+        font-size: 25px;
+    }
+
+    .HM3-text h2{
+        font-size: 18px;
+        margin: -50px 0 0 0px;
+    }
+
+    .division{
+        display: block;
+        margin: 30px 0 0 100px;
+       
+    }
+
+    .division div{
+        display: flex;
+        align-items: center;
+    }
+
+    .division img{
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .division-2{
+        display: block;
+        margin: -180px 0 0 450px;    
+    }
+
+    .division-2 div{
+        display: flex;
+        align-items: center;
+    }
+
+    .division-2 img{
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+
+
+
+
+@media(max-width: 600px){
+    .HM3{
+        display: grid;
+        justify-content: space-around;
+    }
+
+    .HM3-text p{
+        margin: 30px 0 0 -60px;
+        font-size: 18px;
+    }
+
+    .HM3-text h2{
+        font-size: 18px;
+        margin: -30px 0 0 0px;
+    }
+
+    .division{
+        display: block;
+        margin: 40px 0 0 0px;
+       
+    }
+
+    .division div{
+        display: flex;
+        align-items: center;
+    }
+
+    .division img{
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .division-2{
+        display: block;
+        margin: 0px 0 0 0px;    
+    }
+
+    .division-2 div{
+        display: flex;
+        align-items: center;
+    }
+
+    .division-2 img{
+        width: 40px;
+        height: 40px;
+    }
+
+
+}
+
+
+
+
+@media(max-width: 376px){
+    .HM3{
+        display: grid;
+        justify-content: space-around;
+    }
+
+    .HM3-text p{
+        margin: 10px 0 0 50px;
+        font-size: 18px;
+    }
+
+    .HM3-text h2{
+        font-size: 18px;
+        margin: -50px 0 0 100px;
+        color: blueviolet;
+    }
+
+    .division{
+        display: block;
+        margin: 30px 0 0 70px;
+       
+    }
+
+    .division div{
+        display: flex;
+        align-items: center;
+    }
+
+    .division img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .division-2 div img{
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .division-2{
+        display: block;
+        margin: 0px 0 0 70px;    
+    }
+
+    .division-2 div{
+        display: flex;
+        align-items: center;
+    }
+
+    .division-2 img{
+        width: 40px;
+        height: 40px;
+    }
+
+    
+
+}
+
+
+
+
+
+
+

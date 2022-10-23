@@ -1,0 +1,205 @@
+.HW7{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fffbed;
+    padding: 5vw 2vw;
+    margin: 20px 0 0 0;
+}
+
+.text-1{
+    line-height: 2vw;
+}
+
+.text-1 h2{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Raleway';
+}
+
+.text-1 p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.text-1 p:hover{
+    border-bottom: 2px solid blue;
+    width: fit-content;
+}
+
+.text-1 p:nth-child(6){
+    margin-top: 20px;
+}
+
+.draw2{
+    margin: 0 0px 0 -100px;
+}
+
+.soc-set{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+.soc-set img{
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.soc-set img:nth-child(4){
+    margin-left: -10px;
+}
+
+.soc-set img:hover{
+    filter: invert(89%) sepia(41%) saturate(2927%) hue-rotate(168deg) brightness(94%) contrast(89%);
+}
+
+
+
+.button3{
+    margin: 30px 0 0 50px;
+    width: 150px;
+    height: 50px;
+    background-color:#236967;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    transition: .5s;
+}
+
+.button3:hover{
+    background-color: #095066;
+    box-shadow: 28px 14px 19px -6px rgba(39, 80, 34, 0.2);
+    
+}
+.text-2{
+    display: block;
+    margin-right: 10px;
+}
+
+.text-2 h2{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Raleway';     
+}
+
+.text-2 p{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+}
+
+.text-2 p:hover{
+   border-bottom: 2px solid blue;
+   width: fit-content;
+}
+
+.text-2 p:nth-child(4){
+    margin-top: 3vw;
+}
+
+
+@media(max-width: 1150px){
+    .HW7{
+        margin: 50px 0 0 0;
+    }
+
+    .draw2 > img{
+       width: 200px;
+    }
+
+    .button3{ 
+     height: 40px;
+     margin: 20px 0 0 30px;
+    }
+
+    .rules{
+        font-size: 13px;
+    }
+}
+
+
+@media(max-width: 821px){
+    .HW7{
+       margin: 50px 0 0 0;
+    }
+
+    .draw2 > img{
+        
+    }
+
+    .button3{ 
+        width: 130px;
+        height: 30px;
+        transition: .5s;
+        margin: 50px 0 0 70px;
+    }
+
+    .text-1{
+        margin-top: 20px;
+    }
+
+    .soc-set{
+        margin: -10px 0 0 0;
+    }
+    .rules{
+        font-size: 14px;
+        margin: -150px 0 0 0;
+    }
+}
+
+
+@media(max-width: 600px){
+    .HW7{
+        
+    }
+
+    .draw2 > img{
+       margin: -20px 0 0 120px;
+        width: 160px;
+    }
+
+    .button3{ 
+        width: 120px;
+        height: 30px;
+        transition: .5s;
+        margin: 30px 0 0 140px;
+    }
+
+    .text-1{
+        line-height: 4vw;
+        font-size: 14px;
+    }
+    .soc-set{
+        display: none;
+    }
+
+    .text-2{
+        margin: 25px 20px 0 0;
+        font-size: 14px;
+    }
+}
+
+
+
+@media(max-width: px){
+    .HW7{
+        position: relative;
+        top:900px;
+        width: 178%;
+    }
+
+    .draw2 > img{
+        position:relative;
+        left: 30px;
+        width: 220px;
+    }
+
+    .button3{ 
+        width: 130px;
+        height: 40px;
+        transition: .5s;
+    }
+
+    .text-1{
+        margin-top: 20px;
+        line-height: 3vw;
+    }
+}

@@ -1,0 +1,144 @@
+
+.logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 130px;
+    
+}
+
+.speaky-logo{
+    display: flex;
+    
+}
+
+.speaky-logo img{
+    width: 300px;
+    height: 200px;
+    margin: 0 0 0 60px;
+    border: 10px solid rgb(136, 236, 21);
+    border-radius: 30px 30px 30px 30px;
+    
+}
+
+.speaky-icon {
+    display: flex;
+    margin:-60px 40px 0 0;
+   
+
+}
+
+.speaky-icon div{
+    display: flex;
+    align-items: center;
+    margin: 0px 10px;
+    background-color: aqua;
+    border-radius: 50%;
+    transition: .5s;
+    cursor:pointer;
+    
+}
+
+.speaky-icon div:nth-child(2){
+    background-color: aquamarine;
+}
+.speaky-icon div:nth-child(3){
+    background-color: rgb(232, 114, 114);
+}
+.speaky-icon div:nth-child(4){
+    background-color: rgb(110, 142, 241);
+}
+.speaky-icon div:last-child(5){
+    background-color: blueviolet;
+}
+
+
+.speaky-icon div:hover{
+    background-color: rgb(204, 241, 137);
+    box-shadow: 11px 11px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+
+@media(max-width:1150px){
+
+    .speaky-logo img{
+        width: 280px;
+        height: 180px;
+        margin: 0 0 0 20px;
+    }
+
+    .speaky-icon{
+        margin:-120px 0px 0 0;
+    
+}
+}
+
+
+@media(max-width:821px){
+
+    .logo{  
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 100px;
+        
+    }
+
+    .speaky-logo img{
+        width: 250px;
+        height: 150px;
+        margin: 0 0 0 20px;
+    }
+    
+}
+
+@media(max-width:821px){
+.logo{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(184, 240, 221);
+    margin-top: 70px;
+}
+.speaky-logo{
+    display: none;
+}
+.speaky-icon{
+    margin:0 0 10px 0;
+}
+}
+
+
+
+@media(max-width:600px){
+    .logo div{
+        display: block;
+        align-items: center;
+        margin: 5px 0 5px 20px;
+    }
+    .speaky-logo img{
+        width: 150px;
+        height: 100px;
+    }
+    
+
+    .speaky-icon div{
+        display: none;
+        margin: 0px 20px 10px 0;
+        width: 20px;
+        height: 20px;
+    }
+    
+}
+
+@media(max-width:376px){
+   
+}
+
+
+
+
+
+
+
+
